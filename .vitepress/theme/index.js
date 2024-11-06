@@ -5,7 +5,6 @@ import './style.css'
 
 /** @type {import('vitepress').Theme} */
 export default {
-  base: '/blog/',
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
