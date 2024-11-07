@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
             { text: 'Product Research', link: '/ProductResearch/product-research.md' },
             { text: 'Design & Development', link: '/DesignAndDev/design-and-dev.md' },
-            { text: 'Finacial Modeling', link: '/FinancialModeling/financial-modeling.md' },
+            { text: 'Financial Modeling', link: '/FinancialModeling/financial-modeling.md' },
             { text: 'AI & Big Enterprise', link: '/Enterprise/enterprise.md' },
     ],
 
@@ -36,10 +36,10 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Finacial Modeling',
+        text: 'Financial Modeling',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/FinancialModeling/financial-modeling.md' },
+          { text: 'Overview', link: '/Financial/financial-modeling.md' },
           { text: 'Understand the "Why?"', link: '/FinancialModeling/understand-why.md' },
           { text: 'Design your spreadsheet', link: '/FinancialModeling/design-your-spreadsheet.md' },
         ],
