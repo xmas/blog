@@ -4,22 +4,24 @@ layout: home
 
 hero:
   name: "Thinking in Scale"
-  text: "Rowan Christmas' Blog"
-  tagline: My great project tagline
+  # text: "by Rowan"
+  tagline: Musings from Rowan Christmas
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Product Research
+      link: /product-research
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Mentor
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: test
 ---
+
+<!-- <AltFeature description="test"></AltFeature> -->
 
