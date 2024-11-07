@@ -18,13 +18,5 @@ const { frontmatter: fm } = useData()
 .item, .grid-3 {
   padding: 0px;
 }
-.VPFeature {
 
-    transition: all 250ms ease-in;
-}
-
-.VPFeature:hover {
-    background: linear-gradient(265.27deg, #0000 20.55%, #00F27E 94.17%);
-    background-color: #00F27E;
-}
 </style>

@@ -1,0 +1,15 @@
+.clip {
+    background: linear-gradient(70deg, #ff81f2, #2289ff) !important; 
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.VPFeature {
+
+    transition: all 400ms ease-in;
+}
+
+.VPFeature:hover {
+    background: linear-gradient(265.27deg, #ffa8f7, #2289ff);
+    background-color: #00000048;
+}

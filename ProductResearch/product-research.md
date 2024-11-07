@@ -1,5 +1,6 @@
 ---
 outline: deep
+title: Product Research
 ---
 
 ## Product Marketing
