@@ -7,7 +7,7 @@ const { hasSidebar } = useSidebar()
 </script>
 
 <template>
-  <footer v-if="theme.footer && frontmatter.footer !== false" class="VPFooter" :class="{ 'has-sidebar': hasSidebar }">
+  <footer v-if="theme.footer && frontmatter.footer !== false" class="VPFooter">
     <div class="container">
       <p v-if="theme.footer.message" class="message" v-html="theme.footer.message"></p>
       <p v-if="theme.footer.copyright" class="copyright" v-html="theme.footer.copyright"></p>
@@ -22,10 +22,6 @@ const { hasSidebar } = useSidebar()
   border-top: 1px solid var(--vp-c-gutter);
   padding: 32px 24px;
   background-color: var(--vp-c-bg);
-}
-
-.VPFooter.has-sidebar {
-  display: none;
 }
 
 .VPFooter :deep(a) {
