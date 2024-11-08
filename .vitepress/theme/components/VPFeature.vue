@@ -11,34 +11,27 @@ defineProps<{
   linkText?: string
   rel?: string
   target?: string
+  image?: string
 }>()
+
+import { useData } from '../composables/data'
+const { isDark } = useData()
+
 </script>
 
 <template>
-  <VPLink
-    class="VPFeature"
-    :href="link"
-    :rel="rel"
-    :target="target"
-    :no-icon="true"
-    :tag="link ? 'a' : 'div'"
-  >
+  <VPLink class="VPFeature" :href="link" :rel="rel" :target="target" :no-icon="true" :tag="link ? 'a' : 'div'">
     <article class="box">
-      <div v-if="typeof icon === 'object' && icon.wrap" class="icon">
-        <VPImage
-          :image="icon"
-          :alt="icon.alt"
-          :height="icon.height || 48"
-          :width="icon.width || 48"
-        />
+      <div v-if="image">
+        <VPImage class="image-bottom" :image="image" />
       </div>
-      <VPImage
-        v-else-if="typeof icon === 'object'"
-        :image="icon"
-        :alt="icon.alt"
-        :height="icon.height || 48"
-        :width="icon.width || 48"
-      />
+      <div v-if="typeof icon === 'object' && icon.wrap" class="icon">
+        <VPImage :image="icon" :alt="icon.alt" :height="icon.height || 48" :width="icon.width || 48"
+          :class="isDark ? 'svg-opt-invert' : ''" />
+      </div>
+      <VPImage v-else-if="typeof icon === 'object'" :image="icon" :alt="icon.alt" :height="icon.height || 48"
+        :width="icon.width || 48" :class="isDark ? 'svg-opt-invert' : ''" />
+
       <div v-else-if="icon" class="icon" v-html="icon"></div>
       <h2 class="title" v-html="title"></h2>
       <p v-if="details" class="details" v-html="details"></p>
@@ -48,9 +41,23 @@ defineProps<{
           {{ linkText }} <span class="vpi-arrow-right link-text-icon" />
         </p>
       </div>
+
     </article>
   </VPLink>
 </template>
+
+<style>
+.image-bottom {
+  padding-top: 10px;
+  margin-bottom: 2rem;
+ max-height: 40px;
+}
+
+.svg-opt-invert {
+  background-color: #51b7c0;
+  border-radius: 16px;
+}
+</style>
 
 <style scoped>
 .VPFeature {
@@ -66,6 +73,8 @@ defineProps<{
   border-color: var(--vp-c-brand-1);
 }
 
+
+
 .box {
   display: flex;
   flex-direction: column;
@@ -73,7 +82,7 @@ defineProps<{
   height: 100%;
 }
 
-.box > :deep(.VPImage) {
+.box> :deep(.VPImage) {
   margin-bottom: 20px;
 }
 

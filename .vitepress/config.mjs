@@ -5,6 +5,10 @@ export default defineConfig({
   title: "Thinking in Scale",
   description: "Rowan Christmas' Blog",
   themeConfig: {
+    footer: {
+      message: '<span>Connect with me via <a href="mailto:rowan.christmas@mentorcg.com">email</a> or <a href="https://calendly.com/rowan-christmas-mentorcg" target="_">schedule a time</a> on my calendar.</span>',
+      copyright: 'Copyright © 2024-present Rowan Christmas'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
             { text: 'Product Research', link: '/ProductResearch/product-research.md' },
@@ -57,5 +61,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/rowanchristmas/' }
     ]
-  }
+  },
 })
