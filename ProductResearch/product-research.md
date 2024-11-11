@@ -19,7 +19,7 @@ Learn from my mistakes!
 | Priority ranking        | Not all of these will be applicable to problem at hand. We work with you to prioritize and decide on the best | ~20             |
 | Quantitative Testing    | I like [MaxDiff \(Best Worst Scaling\) Analysis & Design](https://www.qualtrics.com/blog/an-introduction-to-maxdiff/). It gives you a solid ranking of what people would choose. <br><br>Example:<br>An Italian restaurant wants to serve Risotto, Lasagna and Gnocchi.  If you have customers rank, you might learn that Risotta is 3rd place. With MaxDiff you learn that customers would *never* choose the Risotto over the Gnocchi and Lasagna. | ~15<br>(ranked) |
 | Qualitative Testing   | Now we have some idea of what our customers want. We do 1:1 interviews, group sessions and design work to show people what they might get. | ~10             |
-| Pricing                 | Now we have ranked features, we know the features look like, we know what customers want from these features… what’s left?<br><br>We need to determine what they will actually pay for. We use [Conjoint Analysis](https://conjointly.com/) (my nexxt post will be all about this). | ~3              |
+| Pricing                 | Now we have ranked features, we know the features look like, we know what customers want from these features… what’s left?<br><br>We need to determine what they will actually pay for. We use [Conjoint Analysis](https://conjointly.com/) (my next post will be all about this). | ~3              |
 
 ## Build it! 
 
