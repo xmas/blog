@@ -7,7 +7,7 @@ title: Product Research
 
 ## Why do product research?
 
-People talk about [The Lean Startup](https://theleanstartup.com/), but I think that companies don't go nearly lean enough. You may remember that I had a startup [for a while](~https://theleanstartup.com/~). In my naiveté I thought we were building something lean. I was wrong. We built a data science service, but it wasn’t geared towards an industry or specific enough use case. Since then I have used the principles and ideas developed during that time at [Qualtrics](https://www.qualtrics.com/), [Genomic Life](https://genomiclife.com/) and numerous consulting engagements with [Mentor Creative Group](https://mentorcg.com/). 
+People talk about [The Lean Startup](https://theleanstartup.com/), but I think that companies don't go nearly lean enough. You may remember that I had a startup [for a while](https://www.linkedin.com/company/rezza). In my naiveté I thought we were building something lean. I was wrong. We built a data science service, but it wasn’t geared towards an industry or specific enough use case. Since then I have used the principles and ideas developed during that time at [Qualtrics](https://www.qualtrics.com/), [Genomic Life](https://genomiclife.com/) and numerous consulting engagements with [Mentor Creative Group](https://mentorcg.com/). 
 
 Learn from my mistakes!
 
