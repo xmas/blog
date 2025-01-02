@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Thinking in Scale</title>
+  <icon>http://rowanchristmas.com/icon.png</icon>
+  
+  <link href="http://rowanchristmas.com/atom.xml" rel="self"/>
+  
+  <link href="http://rowanchristmas.com/"/>
+  <updated>2025-01-02T22:41:35.532Z</updated>
+  <id>http://rowanchristmas.com/</id>
+  
+  <author>
+    <name>Rowan Christmas</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://rowanchristmas.com/2025/01/02/hello-world/"/>
+    <id>http://rowanchristmas.com/2025/01/02/hello-world/</id>
+    <published>2025-01-02T22:41:35.532Z</published>
+    <updated>2025-01-02T22:41:35.532Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
