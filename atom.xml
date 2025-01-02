@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Thinking in Scale</title>
-  <icon>http://rowanchristmas.com/icon.png</icon>
+  <icon>https://xmas.github.io/blog/icon.png</icon>
   
-  <link href="http://rowanchristmas.com/atom.xml" rel="self"/>
+  <link href="https://xmas.github.io/blog/atom.xml" rel="self"/>
   
-  <link href="http://rowanchristmas.com/"/>
+  <link href="https://xmas.github.io/blog/"/>
   <updated>2025-01-02T22:41:35.532Z</updated>
-  <id>http://rowanchristmas.com/</id>
+  <id>https://xmas.github.io/blog/</id>
   
   <author>
     <name>Rowan Christmas</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://rowanchristmas.com/2025/01/02/hello-world/"/>
-    <id>http://rowanchristmas.com/2025/01/02/hello-world/</id>
+    <link href="https://xmas.github.io/blog/2025/01/02/hello-world/"/>
+    <id>https://xmas.github.io/blog/2025/01/02/hello-world/</id>
     <published>2025-01-02T22:41:35.532Z</published>
     <updated>2025-01-02T22:41:35.532Z</updated>
     
